@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+/* Notes Component */
+
+.notes{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  margin: 0 0 0 30%;
+}
+
+
+/* Body Section */
+
+.body{
+  border: 2px solid black;
+  margin: 0 0 0 8%;
+  width: 80%;
+  padding: 10px;
+}
+
+.body .notesBox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* New Notes Component */
+
+.newNotes{
+  border: 1px solid black;
+  width: 25%;
+  margin: 4px;
+  padding: 0 0 10px 10px;
+}
+
+/* .newNotes h2{
+  margin: auto auto;
+} */
